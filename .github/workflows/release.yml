@@ -1,6 +1,7 @@
 name: Release Rust Zipper CLI
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*.*.*"
