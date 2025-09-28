@@ -1,0 +1,10 @@
+[package]
+name = "rustzen-zipper"
+version = "0.1.0"
+edition = "2024"
+description = "Rust CLI tool for zipping dist folders"
+
+[dependencies]
+chrono = "0.4.42"
+walkdir = "2.5.0"
+zip = "5.1.1"
